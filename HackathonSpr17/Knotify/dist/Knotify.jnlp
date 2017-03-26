@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Knotify.jnlp">
+  <information>
+    <title>Knotify</title>
+    <vendor>jfeld</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Knotify.jar" size="99246626" download="eager" />
+    <jar href="lib\beaglebuddy_mp3.jar" size="408549" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Knotify" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="knotify.Knotify"  name="Knotify" />
+  <update check="always"/>
+</jnlp>
